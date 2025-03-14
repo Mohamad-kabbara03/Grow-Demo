@@ -6,15 +6,13 @@ export default defineConfig({
   plugins: [vue()],
   resolve: {
     alias: {
-      '@': path.resolve(__dirname, 'src'),
+      '@': '/src',
+      'assets': '/src/assets'
     },
   },
   css: {
-    devSourcemap: false, // Disable source maps for CSS
+    devSourcemap: false, 
     preprocessorOptions: {
-      scss: {
-        additionalData: `@import "@/assets/css/style.scss"; @import "@/assets/css/responsive.css";`,
-      },
     },
   },
   optimizeDeps: {

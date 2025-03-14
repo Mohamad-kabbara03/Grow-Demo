@@ -6,8 +6,6 @@ import './assets/css/responsive.css';
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.bundle.min.js";
 import $ from "jquery";
-import "owl.carousel/dist/assets/owl.carousel.css";
-import "owl.carousel";
 import routes from './router'
 import 'bootstrap/dist/css/bootstrap.min.css';  // Make sure this is included
 import 'bootstrap/dist/js/bootstrap.bundle.min.js';
