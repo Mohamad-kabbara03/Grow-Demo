@@ -1,9 +1,9 @@
 import { createRouter, createWebHashHistory } from 'vue-router';
-import Home from '@/views/Home.vue';
-import Service from '@/views/Service.vue';
-import About from '@/views/About.vue'; 
-import Why from '@/views/Why.vue';
-import Team from '@/views/Team.vue'; 
+import Home from '@/Views/Home.vue';
+import Service from '@/Views/Service.vue';
+import About from '@/Views/About.vue'; 
+import Why from '@/Views/Why.vue';
+import Team from '@/Views/Team.vue'; 
 import Portfolio from './Views/Portfolio.vue';
 import ContactUs from './Views/ContactUs.vue';
 

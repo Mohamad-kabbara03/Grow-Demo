@@ -26,7 +26,7 @@ export default defineConfig({
     cors: true,
   },
   build: {
-    outDir: 'dist', // Ensure Vite builds to the correct directory
-    sourcemap: false, // Disable source maps to prevent missing file errors
-  },
+    rollupOptions: {
+      input: 'index.html',
+    }},
 });
